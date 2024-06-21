@@ -1,0 +1,60 @@
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+   }
+   
+.card img {
+    
+    width: 100%;
+    height: auto;
+   }
+.like{
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    
+}
+.icon{
+    font-size: 3em;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.count{
+    display: flex;
+    padding: 2px;
+    margin: 2px;
+    background-color: black;
+    font-size: 20px;
+    color: beige;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.comment{
+    display: flex;
+    border: 1px solid black;
+    display: flex;
+    height: 20px;
+    width: 500px;
+    margin: 10px;
+    text-align: left;
+}
